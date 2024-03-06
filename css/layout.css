@@ -1,0 +1,26 @@
+header{
+    background: black;
+    padding: 30px;
+}
+footer{
+    background: white;
+    padding: 30px;
+    text-align: right;
+}
+.gridC{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gridC__child{
+    padding: 5vw;
+}
+.gridC__child:nth-child(1){
+    background-image: url(../imgs/palm-trees-sky.jpeg);
+    background-color: var(--lg);
+    background-blend-mode: screen;
+    background-size: cover;
+}
+.gridC__child:nth-child(2){
+    background-color: var(--pink); 
+}
